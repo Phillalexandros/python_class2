@@ -1,0 +1,33 @@
+bread_slices=2
+peanut_butter=False
+jelly=True
+done_first_steps=True
+
+
+if bread_slices==2:
+    print "You can make {0} peanut butter and jelly sandwich.".format(bread_slices/2)
+    print "Place the two slices side by side on the table."
+elif bread_slices<2:
+    print "Hm, you can fold one slice of bread to make a small sandwich. But why would you want to live this way?! Buy some more bread."
+    print "If you don't have time to buy bread, just put the one slice down."
+elif bread_slices>2:
+    print "Repeat the recipe and make more peanut butter and jelly sandwiches. Save it for lunch tomorrow!"
+    
+elif bread_slices==0:
+    print "You can't make any sandwiches right now, but you may be able to eat peanut butter right out of the jar, if you have peanut butter of course."
+    
+if peanut_butter==True:
+    print "Open the peanut butter jar and take a knife. Scoop out a bit of the peanut butter and spread it on one of the bread slices or the one slice you have."
+
+else: 
+    print "You're going to need some peanut butter! Otherwise you'll just have a bread sandwich." 
+
+if jelly==True:
+    print "Open the jelly jar, take a new knife. Spread some of the jelly onto the empty slice of bread. If only one slice, spread it on the same slice with peanut butter"
+    
+else:
+    print "Do you just have bread? Cause you need more than that to make a peanut butter and jelly sandwich."
+    
+if done_first_steps==True:
+    print "Place the jellied slice of bread on top of the slice with peanut butter. If you only have one slice, just fold the slice."
+else: "Repeat the process above until the first steps are complete."     
